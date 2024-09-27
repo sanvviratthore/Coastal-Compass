@@ -138,7 +138,7 @@ class _HomePageState extends State<HomePage> {
                 const SizedBox(height: 40),
                 ElevatedButton(
                   onPressed: () {
-                    // Pause video when navigating to the login/signup page
+                    
                     _controller.pause();
                     Navigator.push(
                       context,
