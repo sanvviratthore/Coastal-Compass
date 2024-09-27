@@ -21,7 +21,7 @@ class _LoginSignupPageState extends State<LoginSignupPage> {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
-              // Email TextField
+              
               TextField(
                 controller: _emailController,
                 decoration: InputDecoration(
@@ -32,7 +32,7 @@ class _LoginSignupPageState extends State<LoginSignupPage> {
               ),
               SizedBox(height: 16.0),
               
-              // Password TextField
+              
               TextField(
                 controller: _passwordController,
                 decoration: InputDecoration(
@@ -46,7 +46,7 @@ class _LoginSignupPageState extends State<LoginSignupPage> {
               // Login Button
               ElevatedButton(
                 onPressed: () {
-                  // TODO: Implement login logic
+                  
                   print('Login pressed');
                 },
                 child: Text('Login'),
@@ -57,13 +57,13 @@ class _LoginSignupPageState extends State<LoginSignupPage> {
               // Google Sign-In Button
               ElevatedButton.icon(
                 onPressed: () {
-                  // TODO: Implement Google Sign-In logic
+                  
                   print('Google Sign-In pressed');
                 },
-                icon: Image.asset('assets/images/icon_google.png', height: 24.0), // Add your Google logo asset here
+                icon: Image.asset('assets/images/icon_google.png', height: 24.0), 
                 label: Text('Sign in with Google'),
                 style: ElevatedButton.styleFrom(
-                  foregroundColor: Colors.black, backgroundColor: Colors.white, // Text color
+                  foregroundColor: Colors.black, backgroundColor: Colors.white, 
                 ),
               ),
               
@@ -72,7 +72,7 @@ class _LoginSignupPageState extends State<LoginSignupPage> {
               // Sign-Up Button
               TextButton(
                 onPressed: () {
-                  // TODO: Implement sign-up logic
+                  
                   print('Sign-Up pressed');
                 },
                 child: Text('Don\'t have an account? Sign Up'),
